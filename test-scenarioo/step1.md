@@ -9,4 +9,4 @@ gördüğünüz gibi şuan "/root" dizinindeyiz ve bir linux'te bir alt dizine g
 
 değişimi görmek için tekrardan `pwd`{{execute}} komutunu çalıştıralım, evet bu sefer "root" yazısı kayboldu 😵 ama hiç merak etme! şimdi tekrardan root dizinine dönmek için `cd root`{{execute}} komutunu çalıştırmamız yeterli 👍
 
-bulunduğunu dizini kontrol etmek için ne yapman gerketiğini biliyorsun 😉
+bulunduğunu dizini kontrol etmek için ne yapman gerektiğini biliyorsun 😉
