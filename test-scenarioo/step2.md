@@ -4,7 +4,7 @@ Bu bölümde ise listeleme ve terminal üzerinden dosya okuma komutlarına deği
 
 şimdi ise oluşturduğumuz dosyayı `ls`{{execute}} komutu görmeye çalışalım
 
-hmm dosyayı oluştruduk fakat içine ghiç bir şey yazmadık o yüzden dosyamızın içersine bir şeyler yazalım `echo >> "merhaba biz dostuz"`{{execute}}
+hmm dosyayı oluştruduk fakat içine ghiç bir şey yazmadık o yüzden dosyamızın içersine bir şeyler yazalım `echo >> "merhaba biz dostuz" >> first-try.txt`{{execute}}
 
 şimdi ise bakalımdosya içerisine yazdığımızı terminalden okuyabilecek miyiz? `cat first-try.txt`{{execute}} wow başardık!
 
