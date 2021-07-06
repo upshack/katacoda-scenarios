@@ -4,3 +4,9 @@
 şimdi ise üzerinde çalıştığımız sistemi tanımak için `uname -a`{{execute}}  komutunu yazalım
 
 mevcut bulunduğumuz dizini görmek için ise `pwd`{{execute}}  komutunu yazalım
+
+gördüğünüz gibi şuan "/root" dizinindeyiz ve bir linux'te bir alt dizine geçmek için `cd ..`{{execute}} komutu kullanılır
+
+değişimi görmek için tekrardan `pwd`{{execute}} komutunu çalıştıralım, evet bu sefer "root" yazısı kayboldu 😵 ama hiç merak etme! şimdi tekrardan root dizinine dönmek için `cd root`{{execute}} komutunu çalıştırmamız yeterli 👍
+
+bulunduğunu dizini kontrol etmek için ne yapman gerketiğini biliyorsun 😉
