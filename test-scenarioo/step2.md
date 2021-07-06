@@ -2,7 +2,7 @@ Bu bölümde ise listeleme ve terminal üzerinden dosya okuma komutlarına deği
 
 Öncelikle txt formatında bir dosya oluşturalım `touch first-try.txt`{{execute}}
 
-şimdi ise oluşturduğumuz dosyayı `ls`{{execute}} komutu görmeye çalışalım
+şimdi ise oluşturduğumuz dosyayı `ls`{{execute}} komutu ile terminalde görmeye çalışalım
 
 hmm dosyayı oluştruduk fakat içine ghiç bir şey yazmadık o yüzden dosyamızın içersine bir şeyler yazalım `echo "merhaba biz dostuz" >> first-try.txt`{{execute}}
 
