@@ -14,11 +14,11 @@
 
 # Dosya Duzenleme
 
->bir kaç farklı alternatifi mevcuttur: nano, vim, emacs, gedit vs. bize terminal üzerinden dosyayı editleme olanagi tanirlar
+>bir kaç farklı alternatifi mevcuttur: nano, vim, emacs, gedit vs. bize terminal üzerinden dosyayı editleme olanagi tanirlar.
 
 örnek olarak nano üzerinden ilerleyebiliriz, `apt-get install nano`{{execute}} komutu ile kurulumu başlatlaım ardından `nano /etc/apt/source.list`{{execute}} komutu ile paket eşiv dosyamizin icerisine bir goz atalim, burada editleme islemi yapabilir ve ctrl+x tus kobinasyonu yaptiktan sonra eger degisikliklerin kaydolmasini istiyorsak y tusuna basip cikabiliriz
 
-# Yardim komutlari
+# Yardim Komutlari
 
 >whatis <"komut">: Kisaca komutun ne yaptigini aciklar
 `whatis ls`{{execute}}
@@ -29,3 +29,18 @@
 >man <"komut">: Komuta dair cok daha detayli bilgi paylasir 
 `man ls`{{execute}}
 
+# Girdi/Cikti Komutlari
+
+> ">" : çıktıyı dosyaya yazdirma `ls > denemetxt`{{execute}}
+
+> ">>" : çıktıyı dosyanin sonuna yazdirma `ls >> denemetxt`{{execute}}
+
+> "<" : girdiyi yönlendirme, bu işlemde dosya icerisindekileri alfabetik olarak siralar `sort < denemetxt`{{execute}}
+
+# Dosyalari Manipule Etme
+
+> wc <"dosya_ismi">: bize dosya içerigi hakkinda bilgi verir ve bir kac farkli parametresi vardir, karakter icin -c,kelimeler icin -w, satirlar icin -l argumani kullanilir
+
+> less
+
+> grep
