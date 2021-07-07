@@ -107,7 +107,7 @@ Sıradaki adımımız bu kopya dosyasını silmek olacak, "deneme" klasörünün
 * chown -R <"kullanici">:<"grup"> <"dosya_dizin">: Dosya sahibini ve grubunu degistirmek icin kullanilir
 * chgrp <"grup"> <"dosya_dizin">: dosya grubunu degistirmek icin kullanilir
 
-# Sembolik link oluşturma
+# Sembolik link olusturma
 
 >bir dosyayi farklı yerlere kopyalamak yerine bir dosyanın birden fazla yerde link olusturup depolama alnimizda tasarruf saglayabiliriz,
 
