@@ -1,4 +1,4 @@
-Bu bölümde ise bilgimize sınamanın vakti geldi, herkese iy şanslar 🍀
+Bu bölümde ise bilgimizi sınamanın vakti geldi, herkese iy şanslar 🍀
 
 >>1): Bulundğumuz dizini görmek için kullandigimiz komut nedir ?<<
 === pwd
