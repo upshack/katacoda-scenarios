@@ -3,7 +3,7 @@ Bu bölümde ise bilgimize sınamanın vakti geldi, herkese iy şanslar 🍀
 >>1): Bulundğumuz dizini görmek için kullandigimiz komut nedir ?<<
 === pwd
 
->>2): Bir alt dizine geçmek için kullanmamiz gereken komut nedir?<<
+>>2): Bir ust dizine geçmek için kullanmamiz gereken komut nedir?<<
 === cd ..
 
 >>3): "rm" komutu dosya silmek için kullanılır<<
