@@ -93,9 +93,11 @@ Sıradaki adımımız bu kopya dosyasını silmek olacak, "deneme" klasörünün
 * x: calistirma yetkisi
 
 >chmod o+r <"dosya">: Diger kullanicalara yazma yetkisi veya chmod o=r <"dosya"> şeklinde kullanılabilir
+
 >chmod ugo+rw <"dosya">: Dosya sahibine, dosya sahibinin grubuna ve diger kullanicalara yazma ve okuma izni verir
 
 >chmod 644 <"dosya">: Dosya sahibi 4+2=6 okuma yazma izni, dosya sahibi ile aynı grup 4=4 sadece okuma izini verir, diger kullanicilar 4=4 sadece okuma izni verir
+
 >chmod 755 <"dosya">: Dosya sahibi 4+2+1=7 okuma,yazma ve calistirma izni, dosya sahibi ile aynı grup 4+1 sadece okuma, calistirma izini verir, diger kullanicilar 4+1 okuma, calistirma izni verir
 
 # Dosya ve Dizin sahibini degistirmek
