@@ -1,23 +1,31 @@
-Bu bölümde ise bilgimizi sınamanın vakti geldi, herkese iy şanslar 🍀
+# Paketlerin Yonetimi
 
->>1): Bulundğumuz dizini görmek için kullandigimiz komut nedir ?<<
-=== pwd
+>apt-get install <"paket_adi">: apt-get veritabanını tarayarak en son versiyonu bulacak ve /etc/apt/source.list dosyamizda belirtilen arsivden indirmeye başlayacaktir
+`apt-get install nano`{{execute}}
 
->>2): Bir ust dizine geçmek için kullanmamiz gereken komut nedir?<<
-=== cd ..
+>apt-get remove <"paket_adi">:  paketi kaldirmak istedigimizde bu komutu kullaniriz
+`apt-get remove nano`{{execute}}
 
->>3): "rm" komutu dosya silmek için kullanılır<<
-(*) Doğru
-( ) Yanlış
+>apt-get update: arşiv lsitemizi gunceller
+`apt-get update`{{execute}}
 
->>4): Dizin silmek için kullandigimiz komut nedir ?<<
-=== rmdir
+>apt-get -u upgrade: paketleri gunceller -u parametresi ise guncellenecekleri bize gosterir
+`apt-get -u upgrade`{{execute}}
 
->>5): Dosya kopyalamak için kullandigimiz komut nedir ?<<
-=== cp
+# Dosya Duzenleme
 
->>6): Dosya tasimak için kullandigimiz komut nedir ?<<
-=== mv
+>bir kaç farklı alternatifi mevcuttur: nano, vim, emacs, gedit vs. bize terminal üzerinden dosyayı editleme olanagi tanirlar
 
->>7): Dosya içerigini terminal üzerinden gormek kullandigimiz komut nedir ?<<
-=== cat
+örnek olarak nano üzerinden ilerleyebiliriz, `apt-get install nano`{{execute}} komutu ile kurulumu başlatlaım ardından `nano /etc/apt/source.list`{{execute}} komutu ile paket eşiv dosyamizin icerisine bir goz atalim, burada editleme islemi yapabilir ve ctrl+x tus kobinasyonu yaptiktan sonra eger degisikliklerin kaydolmasini istiyorsak y tusuna basip cikabiliriz
+
+# Yardim komutlari
+
+>whatis <"komut">: Kisaca komutun ne yaptigini aciklar
+`whatis ls`{{execute}}
+
+><"komut"> --help: Komuta ozel yardim mesajini ve komutun argumanlarini aciklar
+`ls --help`{{execute}}
+
+>man <"komut">: Komuta dair cok daha detayli bilgi paylasir 
+`man ls`{{execute}}
+
