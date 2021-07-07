@@ -1,3 +1,5 @@
+
+
 # Dosya Kopyalama
 
 Bir önceki bölümde oluşturduğumuz iki adet dosyamız vardı, bunler "first-try.txt" ve ".secret.txt" dosyalarıydı.
