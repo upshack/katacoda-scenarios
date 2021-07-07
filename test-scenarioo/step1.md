@@ -5,7 +5,7 @@
 
 mevcut bulunduğumuz dizini görmek için ise `pwd`{{execute}}  komutunu yazalım
 
-gördüğünüz gibi şuan "/root" dizinindeyiz ve bir linux'te bir alt dizine geçmek için `cd ..`{{execute}} komutu kullanılır
+gördüğünüz gibi şuan "/root" dizinindeyiz ve bir linux'te bir üst dizine geçmek için `cd ..`{{execute}} komutu kullanılır
 
 değişimi görmek için tekrardan `pwd`{{execute}} komutunu çalıştıralım, evet bu sefer "root" yazısı kayboldu 😵 ama hiç merak etme! şimdi tekrardan root dizinine dönmek için `cd root`{{execute}} komutunu çalıştırmamız yeterli 👍
 
