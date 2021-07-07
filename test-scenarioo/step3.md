@@ -1,6 +1,6 @@
 Bu bölümde dosya/dizin silme,kopyalama,taşıma gibi konularına değineceğiz, hadi başlayalım!
 
->>Dosya Kopyalama<<
+#Dosya Kopyalama#
 Bir önceki bölümde oluşturduğumuz iki adet dosyamız vardı, bunler "first-try.txt" ve ".secret.txt" dosyalarıydı.
 ilk olarak "first-try.txt" dosyamızın bir kopyasını oluşturalım bunun için "cp <"kopyalanacak_dosya_ismi"> <"kopya_ismi">" yani `cp first-try.txt kopyasi.txt`{{execute}} şeklinde yazmamız yeterli, şimdi oluşturduğumuz kopyayı görmek için `ls`{{execute}} ve içeriğin aynı olduğunu görmek içinse `cat kopyasi`{{execute}} yazarak teyit edebiliriz.
 
