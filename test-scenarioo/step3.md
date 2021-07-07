@@ -9,8 +9,9 @@ ilk olarak "first-try.txt" dosyamızın bir kopyasını oluşturalım bunun içi
 
 Şimdi ise klasör oluşturalım, "mkdir <"klasör_Adi">" yani `mkdir deneme`{{execute}} bu komut ile deneme adında bir klasör oluşturduk ve teyit etmek amaçlı sizlerde kontrol edebilirsiniz.
 
+# Dosya Taşıma
 ## Dosya Taşıma
-
+### Dosya Taşıma
 senaryomuzda dahilinde bir sonraki adımımız "kopyasi.txt" dosyasını "deneme" klasörünün içine taşımak olucak, bunun için mv <"eski_dosya_yolu"> <"yesni_dosya_yolu">  yani `mv kopyasi.txt /deneme`{{execute}} komutu ile yapabiliriz ve sizlerden bu işlemin başarılı olup olmadığını teyit etmenizi istiyorum.
 
 >Dosya ve Dizin Silme
