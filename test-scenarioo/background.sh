@@ -5,6 +5,10 @@ useradd -p $(openssl passwd -crypt 123) kullanici
 useradd -p $(openssl passwd -crypt 1234) kullanici2
 useradd -p $(openssl passwd -crypt 12345) kullanici3
 
+# Grup olusturma
+groupadd muhasebe
+groupadd it
+
 # Dizin Olustruduk 
 mkdir dizin1
 mkdir dizin2
