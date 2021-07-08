@@ -6,24 +6,36 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "1.Bolum",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "1. Senaryo",
         "text": "step2.md"
       },
       {
-        "title": "Dosya ve Dizin uzerinde islemler",
+        "title": "2.Bolum",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "2. Senaryo",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "3.Bolum",
         "text": "step5.md"
+      },
+      {
+        "title": "3. Senaryo",
+        "text": "step6.md"
+      },
+      {
+        "title": "4.Bolum",
+        "text": "step7.md"
+      },
+      {
+        "title": "5. bolum",
+        "text": "step8.md"
       }
     ],
     "intro": {

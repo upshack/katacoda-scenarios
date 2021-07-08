@@ -1,12 +1,10 @@
-Öncelikle bir klasik olan "Hello world" ile başlayalım, bunun için ekrana 
-`echo "hello world"`{{execute}} yazmanızı istiyoruz ve terminal üzerinde ilk çıktımızı alıp bir klasik giriş yapmış olalım 
+# Navigasyon komutlari
 
-şimdi ise üzerinde çalıştığımız sistemi tanımak için `uname -a`{{execute}}  komutunu yazalım
+>pwd: Mevcut bulundugunumuz dizini yazdirir
 
-mevcut bulunduğumuz dizini görmek için ise `pwd`{{execute}}  komutunu yazalım
+>ls: Dizindeki dosyalari yazdirir, dizinde bulunan gizli dosyalari gormek icin "-la" parametresi kullanilir, daha fazla bilgi icin `ls --help`{{execute}} komutu kullanabilirsiniz
 
-gördüğünüz gibi şuan "/root" dizinindeyiz ve bir linux'te bir üst dizine geçmek için `cd ..`{{execute}} komutu kullanılır
+>cd: Calisma dizinini degistirir
 
-değişimi görmek için tekrardan `pwd`{{execute}} komutunu çalıştıralım, evet bu sefer "root" yazısı kayboldu 😵 ama hiç merak etme! şimdi tekrardan root dizinine dönmek için `cd root`{{execute}} komutunu çalıştırmamız yeterli 👍
-
-bulunduğunu dizini kontrol etmek için ne yapman gerektiğini biliyorsun 😉
+* cd ..: Bir ust dizine gecmek icin
+* cd <"dizin">: Belirlenen dizin yolu gecis yapmak icin `cd /etc/apt/`{{execute}} komutu ile apt dizinin icine giris yapabiliriz

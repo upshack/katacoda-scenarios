@@ -1,13 +1,12 @@
-Bu bölümde ise listeleme ve terminal üzerinden dosya okuma komutlarına değineceğiz.
+Öncelikle bir klasik olan "Hello world" ile başlayalım, bunun için ekrana 
+`echo "hello world"`{{execute}} yazmanızı istiyoruz ve terminal üzerinde ilk çıktımızı alıp bir klasik giriş yapmış olalım 
 
-Öncelikle txt formatında bir dosya oluşturalım `touch first-try.txt`{{execute}}
+şimdi ise üzerinde çalıştığımız sistemi tanımak için `uname -a`{{execute}}  komutunu yazalım
 
-şimdi ise oluşturduğumuz dosyayı `ls`{{execute}} komutu ile terminalde görmeye çalışalım
+mevcut bulunduğumuz dizini görmek için ise `pwd`{{execute}}  komutunu yazalım
 
-hmm dosyayı oluştruduk fakat içine ghiç bir şey yazmadık o yüzden dosyamızın içersine bir şeyler yazalım `echo "merhaba biz dostuz" >> first-try.txt`{{execute}}
+gördüğünüz gibi şuan "/root" dizinindeyiz ve bir linux'te bir üst dizine geçmek için `cd ..`{{execute}} komutu kullanılır
 
-şimdi ise bakalımdosya içerisine yazdığımızı terminalden okuyabilecek miyiz? `cat first-try.txt`{{execute}} wow başardık!
+değişimi görmek için tekrardan `pwd`{{execute}} komutunu çalıştıralım, evet bu sefer "root" yazısı kayboldu 😵 ama hiç merak etme! şimdi tekrardan root dizinine dönmek için `cd root`{{execute}} komutunu çalıştırmamız yeterli 👍
 
-peki ya gizli oluştabilir miyiz? elbette! bunun için oluşturacağımız dosyanın başına "." koymamız yeterli hadi deneylim `touch .secret.txt`{{execute}}
-
-hmm...🧐 ls komutu ile dosyayı görememiş olmalısın ama hiç merak etme bu tarz gizli dosyaları görmek ve bir sonraki bölümün konusu olan dosyaların yetkisini görmek için bu komutu kullanmamız gerekir `ls -la`{{execute}} hadi beraber deneyelim!
+bulunduğunu dizini kontrol etmek için ne yapman gerektiğini biliyorsun 😉

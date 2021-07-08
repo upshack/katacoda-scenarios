@@ -1,23 +1,17 @@
-Bu bölümde ise bilgimizi sınamanın vakti geldi, herkese iy şanslar 🍀
+# Dosya Kopyalama
 
->>1): Bulundğumuz dizini görmek için kullandigimiz komut nedir ?<<
-=== pwd
+>cp <"kaynak_dosya"> <"hedef_dizin">: cp komutu ile dosya ve dizin kopyalabiliriz, birden fazla dosya/dizin kopyalama imkanida vardir "cp <"kaynak_dosya"> <"kaynak_dosya"> <"hedef_dizin">" şeklinde yapabiliriz
 
->>2): Bir ust dizine geçmek için kullanmamiz gereken komut nedir?<<
-=== cd ..
+# Dizin Olusturma
 
->>3): "rm" komutu dosya silmek için kullanılır<<
-(*) Doğru
-( ) Yanlış
+>mkdir <"istedigimiz_dizin_ismi">: yeni bir dizin olusturmak icin kullanilan komuttur
 
->>4): Dizin silmek için kullandigimiz komut nedir ?<<
-=== rmdir
+# Dosya Tasima
 
->>5): Dosya kopyalamak için kullandigimiz komut nedir ?<<
-=== cp
+>mv <"kaynak_dosya"> <"hedef_dizin">: Komutu kullanim olarak "cp" komutu ile aynı hiyerarsik temellere sahiptir yani ayni anda birden fazla dosya tasinabilir, ekstra olarak "-i" komutu ile tasıyacagımız dosyanin hedef dizinde ayni ada sahip baska bir dosya olup olmadigini kontorl ettirebilirz, ayni ada sahip dosya var ise bizden dosyanin uzerine yazılıp yazilmamasi icin onay ister
 
->>6): Dosya tasimak için kullandigimiz komut nedir ?<<
-=== mv
+# Dosya ve Dizin Silme
 
->>7): Dosya içerigini terminal üzerinden gormek kullandigimiz komut nedir ?<<
-=== cat
+>rm <"hedef_dosya">: Dosyalari silmek için bu komutu kullaniriz, birden fazla dosyayi ayni anda silme imkani verir, "-f" parametresi ile dosyayi silmeye zorlayabilir "-rf" parametresi ile dizin silme islemi yapabilirz
+
+>rmdir <"hedef_dizin">: Hedef dizini silmek icin bu komut kullanilir
