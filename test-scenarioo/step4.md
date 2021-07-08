@@ -14,7 +14,7 @@ hmm...🧐 ls komutu ile dosyayı görememiş olmalısın ama hiç merak etme bu
 
 şimdi ise dosya manipülasyonları üzerinde denemeler yapalım, ilk olarak wc komutunu test edelim `wc /ect/apt/sources.list`{{execute}} evet karşımıza 49 323 2765 şeklinde 3 farklı sayi gösterildi, 49 = saitr sayisi, 323 = kelime sayisi, 2765 = karakter sayisi
 
-şimdi ise less komutunu deneyelim `less /ect/apt/sources.list`{{execute}} evet gordugunuz gibi butun icerigi onumuze sermedi buradan yon tuslari ile icerikte yukari assagı bakabiliriz ve cikis yapmak icin "q" tusunu kullanalim
+şimdi ise less komutunu deneyelim `less /etc/apt/sources.list`{{execute}} evet gordugunuz gibi butun icerigi onumuze sermedi buradan yon tuslari ile icerikte yukari assagı bakabiliriz ve cikis yapmak icin "q" tusunu kullanalim
 
 şimdi ise grep komutunu deneyelim `grep -r an /etc/apt/sources.list`{{execute}} içerisinde "an" kelimesi geçenleri kirmizi ile gosterdi 
 
