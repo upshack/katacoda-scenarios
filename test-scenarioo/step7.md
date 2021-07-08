@@ -16,15 +16,4 @@
 
 >bir kaç farklı alternatifi mevcuttur: nano, vim, emacs, gedit vs. bize terminal üzerinden dosyayı editleme olanagi tanirlar.
 
-örnek olarak nano üzerinden ilerleyebiliriz, `apt-get install nano`{{execute}} komutu ile kurulumu başlatlaım ardından `nano /etc/apt/sources.list`{{execute}} komutu ile paket eşiv dosyamizin icerisine bir goz atalim, burada editleme islemi yapabilir ve ctrl+x tus kobinasyonu yaptiktan sonra eger degisikliklerin kaydolmasini istiyorsak y tusuna basip cikabiliriz
-
-# Yardim Komutlari
-
->whatis <"komut">: Kisaca komutun ne yaptigini aciklar
-`whatis ls`{{execute}}
-
-><"komut"> --help: Komuta ozel yardim mesajini ve komutun argumanlarini aciklar
-`ls --help`{{execute}}
-
->man <"komut">: Komuta dair cok daha detayli bilgi paylasir 
-`man ls`{{execute}}
+örnek olarak nano üzerinden ilerleyebiliriz, `apt-get install nano`{{execute}} komutu ile kurulumu başlatlaım ardından `nano dizin1/lorem.txt`{{execute}} komutu ile paket eşiv dosyamizin icerisine bir goz atalim, burada editleme islemi yapabilir ve ctrl+x tus kobinasyonu yaptiktan sonra eger degisikliklerin kaydolmasini istiyorsak y tusuna basip cikabiliriz
