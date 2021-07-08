@@ -17,3 +17,9 @@ hmm...🧐 ls komutu ile dosyayı görememiş olmalısın ama hiç merak etme bu
 şimdi ise less komutunu deneyelim `less /ect/apt/sources.list`{{execute}} evet gordugunuz gibi butun icerigi onumuze sermedi buradan yon tuslari ile icerikte yukari assagı bakabiliriz ve cikis yapmak icin "q" tusunu kullanalim
 
 şimdi ise grep komutunu deneyelim `grep -r an /etc/apt/sources.list`{{execute}} içerisinde "an" kelimesi geçenleri kirmizi ile gosterdi 
+
+>>1): dizin1 icerisinde bulunun lorem.txt dosyasinda kac kalime vardir<<
+=== 91
+
+>>2): ana dizinde bulunan gizli dosyanin icinde ne yaziyor?<<
+=== kVjtWrEE){.HJq5w
