@@ -8,3 +8,14 @@
 
 * cd ..: Bir ust dizine gecmek icin
 * cd <"dizin">: Belirlenen dizin yolu gecis yapmak icin `cd /etc/apt/`{{execute}} komutu ile apt dizinin icine giris yapabiliriz
+
+# Yardim Komutlari
+
+>whatis <"komut">: Kisaca komutun ne yaptigini aciklar
+`whatis ls`{{execute}}
+
+><"komut"> --help: Komuta ozel yardim mesajini ve komutun argumanlarini aciklar
+`ls --help`{{execute}}
+
+>man <"komut">: Komuta dair cok daha detayli bilgi paylasir 
+`man ls`{{execute}}

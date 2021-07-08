@@ -15,3 +15,9 @@
 >rm <"hedef_dosya">: Dosyalari silmek için bu komutu kullaniriz, birden fazla dosyayi ayni anda silme imkani verir, "-f" parametresi ile dosyayi silmeye zorlayabilir "-rf" parametresi ile dizin silme islemi yapabilirz
 
 >rmdir <"hedef_dizin">: Hedef dizini silmek icin bu komut kullanilir
+
+# Sembolik link olusturma
+
+>bir dosyayi farklı yerlere kopyalamak yerine bir dosyanın birden fazla yerde link olusturup depolama alnimizda tasarruf saglayabiliriz.
+
+* ln -s /path/to/file /path/to/symlink: kullanımı bu şekildedir.
