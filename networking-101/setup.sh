@@ -1,0 +1,1 @@
+apt update && apt install whois nginx -y
