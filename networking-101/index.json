@@ -5,24 +5,39 @@
   "time": "60 minutes",
   "details": {
     "steps": [{
-      "title": "Chapter 1 - Networking",
+      "title": "Bolum 1",
       "text": "step01.md",
       "courseData": "setup.sh"
     },
     {
-      "title": "Chapter 2 - Procceses",
+      "title": "Bolum 2",
       "text": "step02.md",
       "courseData": "setup.sh"
     },
     {
-      "title": "Chapter 3 - Resources usage on the system",
+      "title": "Bolum 3",
       "text": "step03.md",
       "courseData": "setup.sh"
     },
     {
-      "title": "Chapter 4 - Files and packages",
+      "title": "Bolum 4",
       "text": "step04.md",
       "courseData": "setup-file.sh"
+    },
+    {
+      "title": "Bolum 5 ",
+      "text": "step05.md",
+      "courseData": "setup.sh"
+    },
+    {
+      "title": "Bolum 6 ",
+      "text": "step06.md",
+      "courseData": "setup.sh"
+    },
+    {
+      "title": "Bolum 7 ",
+      "text": "step07.md",
+      "courseData": "setup.sh"
     }
   ],
     "intro": {
