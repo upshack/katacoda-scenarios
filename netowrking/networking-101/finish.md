@@ -1,2 +1,0 @@
-! Tebrikler başarıyla bitirdiniz !
-
