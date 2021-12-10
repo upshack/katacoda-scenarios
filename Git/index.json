@@ -1,6 +1,6 @@
 {
-  "title": "Scripting",
-  "description": "Temel bash scripting ve yaml,json ve xml hakkında genel bilgi",
+  "title": "Git",
+  "description": "Temel git kullanımı",
   "difficulty": "beginner",
   "time": "60 minutes",
   "details": {
