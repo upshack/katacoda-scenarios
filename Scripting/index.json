@@ -1,0 +1,68 @@
+{
+  "title": "Scripting",
+  "description": "Temel bash scripting ve yaml,json ve xml hakkında genel bilgi",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [{
+      "title": "Bolum 1",
+      "text": "step01.md",
+      "courseData": "setup.sh"
+    },
+    {
+      "title": "Bolum 2",
+      "text": "step02.md",
+      "courseData": "setup.sh"
+    },
+    {
+      "title": "Bolum 3",
+      "text": "step03.md",
+      "courseData": "setup.sh"
+    },
+    {
+      "title": "Bolum 4",
+      "text": "step04.md",
+      "courseData": "setup-file.sh"
+    },
+    {
+      "title": "Bolum 5 ",
+      "text": "step05.md",
+      "courseData": "setup.sh"
+    },
+    {
+      "title": "Bolum 6 ",
+      "text": "step06.md",
+      "courseData": "setup.sh"
+    },
+    {
+      "title": "Bolum 7 ",
+      "text": "step07.md",
+      "courseData": "setup.sh"
+    },
+	{
+      "title": "Bolum 8 ",
+      "text": "step07.md",
+      "courseData": "setup.sh"
+    },
+	{
+      "title": "Bolum 9 ",
+      "text": "step07.md",
+      "courseData": "setup.sh"
+    }
+  ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": [],
+  "environment": {
+    "uilayout": "vscode-terminal-split",
+    "uimessage1": "\u001b[32mThis is an interactive Bash Terminal in Ubuntu.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
