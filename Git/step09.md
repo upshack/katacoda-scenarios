@@ -1,7 +1,7 @@
 # Gitlab ssh key ayarları
 
 >cmd veya git bash üzerinden **ssh-keygen** komutu çalıştırılır
-![birinci](./res/SSH-Key-1.jpg)
+![birinci](/res/SSH-Key-1.jpg)
 
 >Gitlab hesabınıza giriş yaptıktan sonra ayarlar seçeneğine tıklanır
 ![ikinci](./res/SSH-Key-6.jpg)
