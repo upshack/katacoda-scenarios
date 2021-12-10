@@ -1,4 +1,4 @@
-##Arama yapmak
+## Arama yapmak
 
 >Proje içinde arama yapmak için
 
@@ -11,7 +11,7 @@ aranan kelimeyi satır numarasını ile birlikte göstermek için
 * git grep -n "aranan kelime"
 komut ve parametreleri kullanılır.
 
-##Dosya aramak
+## Dosya aramak
 
 >Proje içerisinde dosya aramak için
 
@@ -21,18 +21,18 @@ veya tüm klasörlerde aramak için
 * git ls-files "*dosya_adı"
 komutu kullanılır.
 
-##Değişiklik yapanları listelemek
+## Değişiklik yapanları listelemek
 
 >Proje içerisindeki dosyanın kimler tarafından değiştirildiğine, güncellendiğine bakmak için
 
 * git blame dosya_adı
 
-##Depoya eklenmeyecek dosyalar
+## Depoya eklenmeyecek dosyalar
 
 >Proje geliştirirken çeşitli geliştirme ortamları ve işletim sistemleri tarafından kullanılan dosyalar projeye eklenmek istenmeyebilir.
 >Örneğin; Windows işletim sistemi **desktop.ini** dosyası, bu dosya proje klasöründe oluşturulan **.gitignore** isimli dosyaya yazılırsa dosya depoya eklenmeyecektir.
 
-##Sürüm adı vermek
+## Sürüm adı vermek
 >Geliştirilen projeye sürüm adı vermek için
 
 * git tag surum_adı
@@ -64,7 +64,7 @@ komutu kullanılır.
 * git checkout surum_adı
 komutu kullanılabilir.
 
-##Dosyaları geçici olarak kaydetmek
+## Dosyaları geçici olarak kaydetmek
 
 >Yazılım geliştirilirken başka bir projeye geçiş yapmak istenebilir.
 >Böyle bir durumda depo güncellenme (commit) işlemi yapılabilir.
@@ -80,14 +80,14 @@ komutu kullanılır.
 g* it stash pop
 ile geliştirmeye kalındığı yerden devam edilir.
 
-##Proje yedeğini almak
+## Proje yedeğini almak
 
 >Projenin sıkıştırılmış olarak yedeğini almak için
 
 * git archive --output yedek.zip master
 komutu ile master dalına ait yedek alınır.
 
-##Yardım almak
+## Yardım almak
 
 >Git komutları hakkında detaylı bilgi almak için
 
