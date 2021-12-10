@@ -1,6 +1,6 @@
 # Git
 
-##Genel Bilgi
+## Genel Bilgi
 
 >**Tanım** Git versiyon kontrol sistemidir ve kod üzerinde ki değişiklikleri ve bu değişikliği kimin yaptığını takip etmemize yardımcı olur.
 
