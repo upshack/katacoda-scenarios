@@ -41,8 +41,8 @@ fi
 read -p "Adınız:" ADI
 read -sp "Şifreniz:" SIFRE
 echo
-if [ $ADI = "Yusuf" ] && [ $SIFRE = "SEZER" ]
-#if [ $ADI = "Yusuf" -a $SIFRE = "SEZER" ]
+if [ $ADI = "linus" ] && [ $SIFRE = "torvalds" ]
+#if [ $ADI = "linus" -a $SIFRE = "torvalds" ]
 then
  echo "Başarıyla giriş yapıldı."
 else
