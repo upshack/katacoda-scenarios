@@ -1,6 +1,6 @@
 # Bash Scripting
 
-##Degiskenler
+## Degiskenler
 
 >İlk bash dosyamızı yazmaya başlamak için **#!/bin/bash** komutunu ilk satıra ekleyerek ilk adımımızı atalım
 >Şimdi ise ekrana yazı yazdırma işelemi yapalım, bunun için **echo** komutu kullanılır ve bir klasik başlangıç yapmak için **echo "Hello world!"** yazdıralım
