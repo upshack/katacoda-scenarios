@@ -1,1 +1,1 @@
-Temel bash scripting eğitimine hoşgeldiniz !
+Temel Git eğitimine hoşgeldiniz !
