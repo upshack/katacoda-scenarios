@@ -1,4 +1,4 @@
-##Uzak depoyu indirmek
+## Uzak depoyu indirmek
 
 >Uzak depoda bulunan projeyi indirmek için
 
@@ -15,7 +15,7 @@ komutu kullanılır.
 * git clone https://git.kernel.org/pub/scm/bluetooth/bluez-hcidump.git
 komutu kullanılır.
 
-##Uzak depo eklemek
+## Uzak depo eklemek
 
 >Mevcut oluşturulmuş bir projeye uzak depo eklemek için
 
@@ -36,7 +36,7 @@ veya detaylı listelemek için
 * git remote -v
 komutu kullanılır.
 
-##Uzak depo silmek
+## Uzak depo silmek
 
 >Eklenmiş olan uzak depoyu silmek için
 
@@ -48,7 +48,7 @@ Yukarıda eklenen linuxKernel isimli uzak depoyu silmek için
 * git remote rm linuxKernel
 komutu kullanılır.
 
-##Uzak depoya dosya göndermek
+## Uzak depoya dosya göndermek
 
 >Uzak depo ekleme işleminden sonra proje üzerinde çeşitli değişiklik yaptıktan sonra tekrar uzak depoya dosyaları göndermek için
 
@@ -72,7 +72,7 @@ komutu kullanılır.
 * git push uzak-depo kopya-branch-adi
 komutu kullanılır.
 
-##Uzak depoyu güncellemek
+## Uzak depoyu güncellemek
 
 >Uzak depo diğer ekip üyeleri tarafından herhangi bir güncelleme eklendiğinde bizimde bu güncellemeyi çalışma alanına indirmemiz gerekebilir.
 >Güncelleme olup olmadığına bakmak için
