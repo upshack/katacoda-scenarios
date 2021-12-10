@@ -1,4 +1,4 @@
-#Dosya ve klasör silme
+# Dosya ve klasör silme
 
 >Proje geliştirirken ihtiyaç olmayan kullanılmayan dosya ve klasörler silinmek istenebilir.
 >Silme işlemini kendimiz proje klasörü üzerinden silebiliriz.
@@ -25,7 +25,7 @@ komutu kullanılarak çalışma alanı ve geçiş bölgesinde silme işlemi ger�
 
 * git commit -am "silinecek.txt silindi"
 
-##Dosya ve klasör ismini değiştirme
+## Dosya ve klasör ismini değiştirme
 
 >Dosya ismini değiştirme işlemini, kendimiz yaptıktan sonra silme işlemine benzer şekilde geçiş bölgesine eklememiz ve daha sonra depoyu güncellememiz gerekir.
 >Komut ile isim değiştirilmek istenirse
@@ -38,7 +38,7 @@ komutu kullanılarak çalışma alanı ve geçiş bölgesinde dosya ismi değiş
 * git commit -am "metni.txt ismi değişti"
 Bu komut ayrıca dosya taşıma içinde kullanılır.
 
-##Dosya ve klasör kopyalama
+## Dosya ve klasör kopyalama
 
 >Dosya kopyalama işlemini kendimiz veya
 
@@ -50,7 +50,7 @@ cmd komutu ile yapabiliriz.
 
 >Kopyalama işleminden sonra silme işlemine benzer şekilde geçiş bölgesine ekleme ve daha sonra depoyu güncellememiz gerekir.
 
-##Yapılan değişikliği geri almak
+## Yapılan değişikliği geri almak
 
 >Proje klasörü içerisinde yanlış dosya silme veya yanlış bir değişiklik yaptıktan sonra geçiş bölgesinde bulunan kopyasını geri almak için
 
@@ -71,7 +71,7 @@ komutu ile tekrar geri getirilir.
 
 Böylece çalışma alanından ve geçiş bölgesinden silinen, değiştirilen dosyalar tekrar eski durumuna geri getirilebilir.
 
-##Önceki sürüme dönmek
+## Önceki sürüme dönmek
 
 >Çalışma alanında yapılan değişiklik sonrası dosyalar depoya gönderilmeden geçiş bölgesine ve daha sonra depoya sürümler halinde kaydedilir.
 >Bazen hatalı işlemleri geç fark edip önceki kaydedilen sürümlere dönüş yapabiliriz.
