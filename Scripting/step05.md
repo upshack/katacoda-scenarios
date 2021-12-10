@@ -108,9 +108,9 @@ fi
 >Temel kullanımı aşağıdaki gibidir.
 
 case <değişken-değer> in
-<durum-1>) <komutlar>
+durum-1) komutlar
 ;;
-<durum-2>) <komutlar>
+durum-2) komutlar
 ;;
 esac
 
