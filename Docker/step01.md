@@ -1,10 +1,10 @@
 # Docker
 
-##Docker nedir?
+## Docker nedir?
 
 Docker, uygulamalarınızı hızla derlemenize, test etmenize ve dağıtmanıza imkan tanıyan bir yazılım platformudur.
 
-##Genel Bilgi
+## Genel Bilgi
 
 >**Repository**: bu alanda imajın ismi yer alıyor, eğer bir sunucu adresi yok ise varsayılan olarak Docker Hub kullanılır
 >**Tag**:İmajın sürümüne ait bir isim varsa o yer alır, sürüm numarası varsa o bu alanda yer alır, genel olarak “latest” yani son sürüm anlamına gelen kelime kullanılır
