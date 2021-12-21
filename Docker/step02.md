@@ -1,4 +1,4 @@
-#Docker Komutları
+# Docker Komutları
 
 >sistemimizde mevcut olan docker a dair genel bir verison bilgisi almak için
 `docker version`{{execute}}
