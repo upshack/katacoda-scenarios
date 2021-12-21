@@ -40,7 +40,7 @@
   },
   "files": [],
   "environment": {
-    "uilayout": "vscode-terminal-split",
+    "uilayout": "terminal",
     "uimessage1": "\u001b[32mThis is an interactive Bash Terminal in Ubuntu.\u001b[m\r\n"
   },
   "backend": {
