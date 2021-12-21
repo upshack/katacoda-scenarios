@@ -1,6 +1,6 @@
-#Docker Publish 
+# Docker Publish 
 
->Eğer mevcut bir dockerhub hesabını yok ise 'https://hub.docker.com/'{{copy}} adresinde bir hesap oluşturup senaryoya devam edebilirsiniz
+>Eğer mevcut bir dockerhub hesabını yok ise https://hub.docker.com/ adresinde bir hesap oluşturup senaryoya devam edebilirsiniz
 
 >Dockerhub hesabımıza konsol üzerinden giriş yapmak için **login** komutu kullanılır, sırasıyla kullanıcı adı ve şifre bilgilerini girmemiz gerekmektedir 
 `docker login`{{execute}}
