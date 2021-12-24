@@ -54,7 +54,6 @@
     },
     "intro": {
       "text": "intro.md",
-      "credits": "__Author:__ Ranmsés E. Martins Bastos e Kleber Tadeu Santana (Petrobras)",
       "courseData": "background.sh",
       "code": "foreground.sh"
     },
