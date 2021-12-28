@@ -1,0 +1,71 @@
+{
+  "title": "Configuration Managment",
+  "description": "Ansible"
+  "details": 
+    "steps": [
+      {
+        "title": "Bolum 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Bolum 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Bolum 3",
+        "text": "step3.md"
+      },
+      {
+        "title": "Bolum 4",
+        "text": "step4.md"
+      },
+      {
+        "title": "Bolum 5",
+        "text": "step5.md"
+      },
+      {
+        "title": "Bolum 6",
+        "text": "step6.md"
+      }
+    ],
+    "assets": {
+        "host01": [
+          {
+            "file": "ansible.cfg",
+            "target": "/root"
+          },
+          {
+            "file": "hosts",
+            "target": "/root"
+          },
+          {
+            "file": "playbook.yml",
+            "target": "/root"
+          },
+          {
+            "file": "hostname.yml",
+            "target": "/root"
+          },
+          {
+            "file": "config",
+            "target": "/root/.ssh"
+          }
+        ]
+    },
+    "intro": {
+      "text": "intro.md",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "terminals": [{"name": "control", "target":"host01"},{"name":"host02","target":"host02"},{"name":"host03","target":"host03"}]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
