@@ -8,9 +8,6 @@
 | Managed host 2       | host02         | `[[HOST2_IP]]` |
 | Managed host 3       | host03         | `[[HOST3_IP]]` |
 
-Kontrol düğümü, Ansible'ın kurulu olduğu herhangi bir makinedir. Her üç düğüm de Red Hat Enterprise Linux 8 çalıştırıyor. Sunucuda hangi Red Hat Enterprise sürümünün çalıştığını görmek için Linux 'cat' komutunu kullanarak '/etc/redhat-release' dosyasını inceleyin.
-`cat /etc/redhat-release`{{execute}}
-
 # /etc/hosts incelenmesi
 
 Bu laboratuvar ortamı için ana bilgisayar adlarını kullanacağız. Bu, `/etc/hosts` dosyasındaki ana bilgisayar eşlemesi yoluyla gerçekleştirilir. `/etc/hosts` dosyasını incelemek için Linux `cat` komutunu kullanın:
