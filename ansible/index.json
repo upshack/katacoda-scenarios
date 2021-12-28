@@ -2,7 +2,7 @@
   "title": "Configuration Managment",
   "description": "Ansible"
   "details": 
-    "steps": [
+  "steps": [
       {
         "title": "Bolum 1",
         "text": "step1.md"
