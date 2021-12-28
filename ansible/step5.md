@@ -18,7 +18,7 @@ Bazı önemli kavramlar:
 
   - **become**: Özel komutta "-b"yi kullanmakla aynı şekilde Playbook'larda ayrıcalık yükseltme.
 
-## Examine the Ansible Playbook
+## Ansible Playbook inceleme
 
 Bu alıştırma zaten tamamlanmış bir Ansible Playbook sağlamıştır. Bu başucu kitabını incelemek için Linux `cat` komutunu kullanın.
 

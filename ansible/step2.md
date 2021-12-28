@@ -1,4 +1,4 @@
-# Examine Ansible software version
+# Ansible software version
 
 Yalnızca yüklü olan Ansible sürümünü değil, aynı zamanda birkaç önemli ayrıntıyı da görmek için --version pararameteresi ile ansible komutunu çalıştırın:
 
@@ -39,11 +39,11 @@ Ansible'ın nasıl çalıştığına dair bir fikir edinmenize yardımcı olmak 
     host03
 ```
 
-now compare this to
+şimdi bununla karşılaştır
 
 `ansible all --list-hosts`{{execute}}
 
-The output will look like this:
+Çıktı şöyle görünecektir:
 
 ```
   hosts (3):
@@ -52,17 +52,15 @@ The output will look like this:
     host03
 ```
 
-You will notice that the group web only contains `host02` and `host03` whereas all also contains `host01`
+Web grubunun yalnızca "host02" ve "host03" içerdiğini, hepsinin de "host01" içerdiğini fark edeceksiniz.
 
-# Determining	connectivity
+# Bağlantıyı belirleme
 
-We can also use modules to perform ad-hoc tasks.  The most common example is using the [ping module](https://docs.ansible.com/ansible/latest/modules/ping_module.html) to determine connectivity from the control node to managed hosts.
-
-The `-m` option defines which Ansible module to use
+`-m` seçeneği, hangi Ansible modülünün kullanılacağını tanımlar.
 
 `ansible web -m ping`{{execute}}
 
-The output will look like the following:
+Çıktı aşağıdaki gibi görünecektir:
 
 ```
 host03 | SUCCESS => {
@@ -81,4 +79,4 @@ host02 | SUCCESS => {
 }
 ```
 
-You will see green return values in the terminal window with the hostname and **SUCCESS**.
+Terminal penceresinde ana bilgisayar adı ve **SUCCESS** ile dönüş değerleri göreceksiniz.

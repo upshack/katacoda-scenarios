@@ -42,6 +42,6 @@ host03"e bağlanmak için Linux "ssh" komutunu kullanın:
 
 `ssh host03`{{execute}}
 
-Kontrol düğümüne geri dönmek için çıkış yazın.
+Kontrol düğümüne geri dönmek için **exit** yazın.
 
 `exit`{{execute}}
