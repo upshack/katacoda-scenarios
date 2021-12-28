@@ -66,6 +66,6 @@
     "terminals": [{"name": "control", "target":"host01"},{"name":"host02","target":"host02"},{"name":"host03","target":"host03"}]
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ansible"
   }
 }
