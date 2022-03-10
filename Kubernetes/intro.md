@@ -4,7 +4,5 @@
 
 [**Label**](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/), nesnelere nitelik sağlamak için kullanılan bir anahtar/değer çiftidir. pod ların ne yaptığı üzerinde daha ayrıntılı bir denetime sahip olabileceğiniz için, Label lardan yararlanmak iyi bir uygulamadır. Label belirli nesneleri sorgulamak için kullanılabilir.
 
-A **Volume** serves data to the pod.
-
 <p style="text-align:center;"><img src="/contino/courses/kubernetes/pods/assets/pod.png" alt="Pod"></p>
 
