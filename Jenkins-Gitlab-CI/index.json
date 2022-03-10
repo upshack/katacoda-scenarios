@@ -1,0 +1,41 @@
+{
+    "pathwayTitle": "Jenkins",
+    "title": "Cont. Integration and Delivery",
+    "description": "Cont. Integration and Delivery",
+    "difficulty": "beginner",
+    "time": "15-20 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Bolum-1",
+                "text": "step1.md"
+            },
+            {
+                "title": "Bolum-2",
+                "text": "step2.md"
+            },
+            {
+                "title": "Bolum-3",
+                "text": "step3.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "courseBase.sh",
+            "credits": ""
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboard": "Dashboard",
+        "uilayout": "terminal-iframe",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "jenkins",
+        "port": 8080
+    }
+}

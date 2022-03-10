@@ -1,0 +1,1 @@
+Sürekli Entegrasyon ve Sürekli Teslimat
