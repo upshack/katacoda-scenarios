@@ -2,32 +2,32 @@
 
 1.Aşama: Bir hesabınızı oluşturduktan sonra aşağıda gösterilen web sayfasını açmak için bu bağlantıya tıklayın (https://cloud.google.com/). Devam edin ve Konsola Git'e tıklayın.
 
-![GCP-Location](./assets/0-1.png)
+![birinci](./assets/0-1.png)
 
 2.Aşama: Aşağıdaki web sayfası açılmalıdır. Sol üst köşede bir açılır seçeneğiniz olacak. Varsayılan olarak seçilmiş bir projeye sahiptir. Daha fazla seçenek keşfetmek için üzerine tıklayın.
 
-![GCP-Location](./assets/1-5.png)
+![ikinci](./assets/1-5.png)
 
 3.Aşama: Sonraki görünen Web sayfası, arama sekmesinde arama yaparak veya yeni bir tane eklemek için artı işaretine tıklayarak mevcut bir projeyi seçmenizi sağlar. Yeni bir proje eklediğinizde, ilk zamanlayıcılar iki adımlı basit bir işlem olan faturalandırma seçeneğini ayarlamanızı gerektirecektir. Burada varsayılan seçenekle devam edeceğim:
 
-![GCP-Location](./assets/3-3.png)
+![ucuncu](./assets/3-3.png)
 
 4.Aşama: Ardından sol üst köşedeki açılır seçeneğe tıklayın ve **Compute Engine** Seçeneğini seçin.
 
-![GCP-Location](./assets/4-5.png)
+![dorduncu](./assets/4-5.png)
 
 5.Aşama: Şimdi, aynısını oluşturmak için **Create instance** butonuna tıklayın.
 
-![GCP-Location](./assets/5-3.png)
+![besinci](./assets/5-3.png)
 
 6.Aşama: Ardından devam edin ve örneğiniz için ayrıntıları doldurun. Örnek özelliklerinizi ihtiyaçlarınıza göre özelleştirebilirsiniz. Örneğin maliyetin, seçtiğiniz konuma ve belleğe göre değişebileceğini unutmayın.
 
-![GCP-Location](./assets/6-2.png)
+![altınci](./assets/6-2.png)
 
 7.Aşama: Ayrıntıları doldurun ve ardından **create** butonuna tıklayın.
 
-![GCP-Location](./assets/7-2.png)
+!yedinci](./assets/7-2.png)
 
 8.Aşama: Ve işte artık kullanımınıza hazır bir instance var.
 
-![GCP-Location](./assets/8-2.png)
+![sekizinci](./assets/8-2.png)
