@@ -19,4 +19,4 @@ Bunu, Google tarafından sunulan Bulut Hizmetleri koleksiyonu olarak düşünebi
 
 ### Dünya haritası üzerinde GCP lokasyonları
 
-![GCP-Location](./assets/location.PNG)
+![GCP-Location](./assets/9.png)
