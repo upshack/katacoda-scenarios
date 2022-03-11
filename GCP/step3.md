@@ -26,7 +26,7 @@
 
 7.Aşama: Ayrıntıları doldurun ve ardından **create** butonuna tıklayın.
 
-!yedinci](./assets/7-2.png)
+![yedinci](./assets/7-2.png)
 
 8.Aşama: Ve işte artık kullanımınıza hazır bir instance var.
 
