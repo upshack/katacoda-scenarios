@@ -1,0 +1,1 @@
+Bulut Bilişim Temel Bilgiler (Google Cloud Platform)
